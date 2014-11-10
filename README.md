@@ -1,5 +1,5 @@
 360 video viewing with the Oculus Rift inside a browser
-------------------------------------------------------
+======================================================
 
 As you might have known already VR is getting closer and closer to being an
 everyday household device that the common man has access to. In the last few
@@ -31,7 +31,7 @@ testing out user interaction concepts how this in would work out in practice.
 
 
 To try it out
-=============
+-------------
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ initial view.
 
 
 Technical background
-====================
+--------------------
 
 So how does this essentially work? What does the VR support in the browser mean?
 
@@ -78,6 +78,44 @@ Basically displaying VR content has two main parts
 * Displaying slightly different images for the two eyes,
 * Reacting to user movement
 
+### The display
 
+Since we have to create two images for the two eyes of the same scene, the
+natural approach would be working in a 3D environment.
 
+In this 3D environment, after setting up the scene we position two cameras,
+looking in the same direction that will produce the two sepparate images for
+the two eyes.
 
+The `web-vr` api helps us determine the appropriate camera position and
+charactersitics, according to the hardware that we currently use.
+
+### User movement
+
+Moreover, the `web-vr` api lets us access rotation data, that tells the
+application which direction the user is looking at. This is similar to
+gyroscope data received from the [Device Orientation API](http://www
+.html5rocks.com/en/tutorials/device/orientation/?redirect_from_locale=de)
+available in `html5`.
+
+Once we get the data, we can adjust the camera positions thus letting the
+users look around in the 3D scene.
+
+### High level overview
+
+The logic of the application could be described by the following lines:
+
+    Initialize the WebGL enabled html5 canvas
+    Create sphere
+    Crate video
+    Create video-based texture and add it to the sphere
+    Create and position the two camera objects
+    Start video playback
+    While tab not closed:
+        Update camera positions based on the oculus rift rotation
+        Update the texture of the sphere with the latest video frame
+        Render the images from the two cameras onto the WebGL canvas
+
+To view the source code, please access the companies github repository at
+[https://github.com/geniuxconsulting/blog-three60-vr](https://github
+.com/geniuxconsulting/blog-three60-vr)
