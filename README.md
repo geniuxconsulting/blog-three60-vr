@@ -30,7 +30,53 @@ testing out user interaction concepts how this in would work out in practice.
   support to it.
 
 
+To try it out
+=============
 
+### Prerequisites
+
+As of now vr-enabled browsers only support the Oculus Rift, though we were told
+that support for other device is on the way.
+
+With this in mind, you can only test-drive the experiment with the Oculus
+Rift that you've [properly installed](https://support.oculus
+.com/hc/en-us/articles/202741283-Getting-Started-with-your-new-Oculus-Rift
+-Development-Kit-2) on your machine.
+
+### Steps to get it up and runnning
+
+1. First you'll have to get yourself one of the vr-enabled browsers.
+   Please download either:
+    * [Firefox](http://blog.bitops
+    .com/blog/2014/08/20/updated-firefox-vr-builds/)
+      or
+    * [Chrome](http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html)
+1. Make sure your Rift is connected
+1. Start the browser and navigate to [geniuxconsulting.github
+.io/blog-three60-vr](geniuxconsulting.github.io/blog-three60-vr)
+1. On some OSes you might have to move the window on the Oculus screen, and
+then simply make it fullscreen by pressing `F11`
+1. The video should be running inside the headset, with you being able to
+look around in it.
+
+### Controls
+
+The sample application has 4 included videos that you can toggle by pressing
+the keys `1` through `4`.
+
+Use the mouse to drag around the view around to adjust the position of the
+initial view.
+
+
+Technical background
+====================
+
+So how does this essentially work? What does the VR support in the browser mean?
+
+Basically displaying VR content has two main parts
+
+* Displaying slightly different images for the two eyes,
+* Reacting to user movement
 
 
 

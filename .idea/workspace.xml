@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a1db2a6-62c0-4d0a-a397-640cea81f64e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/matyas.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/matyas.xml" />
     </list>
     <ignored path="three60-vr.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,8 +83,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52394366" vertical-offset="0" max-vertical-offset="1713">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.65779465" vertical-offset="712" max-vertical-offset="2528">
+              <caret line="78" column="29" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -696,8 +696,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52394366" vertical-offset="0" max-vertical-offset="1713">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.65779465" vertical-offset="712" max-vertical-offset="2528">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
           <folding />
         </state>
       </provider>
