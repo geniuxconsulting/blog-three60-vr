@@ -198,14 +198,16 @@
 			if (video.readyState === video.HAVE_ENOUGH_DATA) {
 				//alert('vid to texture');
 				videoTexture.needsUpdate = true;
-			} else if (window.waitingForFrame === 10) {
+			} else if (video.readyState > 1 && window.waitingForFrame === 10) {
 				//alert('no vid data for texture');
 				video.load();
 				video.currentTime = 0;
 				video.play();
 				window.waitingForFrame = 0;
 			} else {
-				window.waitingForFrame = (window.waitingForFrame || 0) + 1;
+				if (video.readyState > 1) {
+					window.waitingForFrame = (window.waitingForFrame || 0) + 1;
+				}
 			}
 		}
 		else if (!window.myFlag) {
