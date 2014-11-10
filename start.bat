@@ -1,0 +1,1 @@
+C:\Users\Matyas\progz\Chrome-bin\chrome.exe --allow-file-access-from-files C:\Users\Matyas\Documents\GitHub\three60-vr\index.html

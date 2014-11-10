@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- DEPENDENCIES -->
+    <script type="text/javascript" src="js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.hammer.min.js"></script>
+    <script type="text/javascript" src="js/lib/three.min.js"></script>
+    <script type="text/javascript" src="js/lib/fulltilt.min.js"></script>
+
+    <script type="text/javascript" src="js/lib/THREEx.FullScreen.js"></script>
+    <script type="text/javascript" src="js/lib/detector.js"></script>
+    <!-- /DEPENDENCIES -->
+
+    <!-- STATS -->
+    <!-- <script type="text/javascript" src="js/lib/stats.js"></script> -->
+    <!-- /STATS -->
+
+    <!-- MAIN -->
+    <script type="text/javascript" src="js/tablet.js"></script>
+    <script type="text/javascript" src="js/vr.js"></script>
+    <script type="text/javascript" src="js/three60.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- /MAIN -->
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div id="three60" style="">
+</div>
+<div class="controls">
+    <button class="fullscreen btn">
+      <span class="up icon">
+        &#8599;
+      </span>wd
+      <span class="down icon">
+        &#8601;
+      </span>
+    </button>
+</div>
+
+
+<script type="text/javascript">
+    init({
+        $target: $('#three60'),
+        videoURL: './videos/test1.webm'
+//        videoURL: './videos/test4.mp4'
+    });
+</script>
+
+<!-- GOOGLE ANALYTICS -->
+
+<script type="text/javascript">
+    //    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    //    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    //    try {
+    //      var pageTracker = _gat._getTracker("UA-51972165-1");
+    //      pageTracker._trackPageview();
+    //    } catch(err) {}
+</script>
+
+<!-- /GOOGLE ANALYTICS -->
+</body>
+</html>

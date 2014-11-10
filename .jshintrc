@@ -1,0 +1,81 @@
+{
+  /*
+  * ENVIRONMENTS
+  * =================
+  */
+
+  // Define globals exposed by modern browsers.
+  "browser": true,
+  // Define globals exposed by jQuery.
+  "jquery": true,
+  // Define globals exposed by Node.js.
+  "node": true,
+  /*
+ * ENFORCING OPTIONS
+ * =================
+ */
+
+  // Force all variable names to use either camelCase style or UPPER_CASE
+  // with underscores.
+  "camelcase": true,
+  // Curly braces all the blocks!
+  "curly": true,
+  // Prohibit use of == and != in favor of === and !==.
+  "eqeqeq": true,
+  // For-In-Loops need checking for own properties
+  "forin": true,
+  // Forbid overwriting prototypes
+  "freeze": true,
+  // Wrap IIFEs in parentheses
+  "immed": true,
+  // Enforce tab width of 2 spaces.
+  "indent": 2,
+  // Prohibit use of a variable before it is defined.
+  "latedef": true,
+  // Enforce line length to 80 characters
+  "maxlen": 80,
+  // Require capitalized names for constructor functions.
+  "newcap": true,
+  // This option warns when you have an empty block in your code
+  "noempty": true,
+  // This option warns about "non-breaking whitespace" characters
+  "nonbsp": true,
+  // This option prohibits the use of constructor functions for side-effects
+  "nonew": true,
+  // Enforce use of single quotation marks for strings.
+  "quotmark": "single",
+  // Enforce placing 'use strict' at the top function scope
+  "strict": true,
+  // Max parameter per function
+  "maxparams": 3,
+  // Block nesting
+  "maxdepth": 5,
+  // Cyclomatic complexity
+  "maxcomplexity": 10,
+  // Prohibit use of explicitly undeclared variables.
+  "undef": true,
+  // Warn when variables are defined but never used.
+  "unused": true,
+  /*
+ * RELAXING OPTIONS
+ * =================
+ */
+
+  // Suppress warnings about == null comparisons.
+  "eqnull": true,
+  "globals": [
+	// global
+	"confirm",
+	"console",
+	"$",
+	"Detector",
+	"THREE",
+	"Stats",
+	"vr",
+	"alert",
+	"HMDVRDevice",
+	"PositionSensorVRDevice",
+	"three60",
+	"tablet"
+  ]
+}
