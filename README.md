@@ -52,8 +52,14 @@ Rift that you've [properly installed](https://support.oculus
       or
     * [Chrome](http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html)
 1. Make sure your Rift is connected
-1. Start the browser and navigate to [geniuxconsulting.github
+1. Start the vr-enabled browser and navigate to [geniuxconsulting.github
 .io/blog-three60-vr](geniuxconsulting.github.io/blog-three60-vr)
+   or
+   Checkout the [project from git](https://github
+   .com/geniuxconsulting/blog-three60-vr) and open `index.html` and make sure
+    you [change the local files security policy](https://github
+    .com/mrdoob/three.js/wiki/How-to-run-things-locally) to be able to load
+    local videos
 1. On some OSes you might have to move the window on the Oculus screen, and
 then simply make it fullscreen by pressing `F11`
 1. The video should be running inside the headset, with you being able to
@@ -119,3 +125,8 @@ The logic of the application could be described by the following lines:
 To view the source code, please access the companies github repository at
 [https://github.com/geniuxconsulting/blog-three60-vr](https://github
 .com/geniuxconsulting/blog-three60-vr)
+
+### Support
+
+The platforms that we've tried this out were OSX and Windows, and both worked
+ flawlessly.
