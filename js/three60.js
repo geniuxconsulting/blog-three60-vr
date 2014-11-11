@@ -219,7 +219,7 @@
 		requestAnimationFrame(render);
 		refreshTexture();
 		if (vr.enabled) {
-			vr.render();
+			vr.render(renderer, scene);
 		} else {
 //			tablet.applyDeviceOrientation(camera);
 			renderer.enableScissorTest(false);
