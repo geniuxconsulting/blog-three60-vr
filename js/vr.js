@@ -161,7 +161,7 @@ var vr = {};
 		cameraLeft.setRotationFromQuaternion(qrot);
 		cameraRight.setRotationFromQuaternion(qrot);
 	};
-	vr.render = function() {
+	vr.render = function (renderer, scene) {
 
 		updateScene();
 
@@ -181,7 +181,7 @@ var vr = {};
 	vr.init = function(startCallback) {
 		var vrStart = function(devices) {
 			try {
-				vr.enumerateDevices(devices);
+				enumerateVRDevices(devices);
 				vr.enabled = true;
 			} catch (e) {
 				console.error(e);
