@@ -39,9 +39,7 @@ As of now vr-enabled browsers only support the Oculus Rift, though we were told
 that support for other device is on the way.
 
 With this in mind, you can only test-drive the experiment with the Oculus
-Rift that you've [properly installed](https://support.oculus
-.com/hc/en-us/articles/202741283-Getting-Started-with-your-new-Oculus-Rift
--Development-Kit-2) on your machine.
+Rift that you've [properly installed](https://support.oculus.com/hc/en-us/articles/202741283-Getting-Started-with-your-new-Oculus-Rift-Development-Kit-2) on your machine.
 
 ### Steps to get it up and runnning
 
@@ -52,13 +50,10 @@ Rift that you've [properly installed](https://support.oculus
       or
     * [Chrome](http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html)
 1. Make sure your Rift is connected
-1. Start the vr-enabled browser and navigate to [geniuxconsulting.github
-.io/blog-three60-vr](geniuxconsulting.github.io/blog-three60-vr)
+1. Start the vr-enabled browser and navigate to [geniuxconsulting.github.io/blog-three60-vr](geniuxconsulting.github.io/blog-three60-vr)
    or
-   Checkout the [project from git](https://github
-   .com/geniuxconsulting/blog-three60-vr) and open `index.html` and make sure
-    you [change the local files security policy](https://github
-    .com/mrdoob/three.js/wiki/How-to-run-things-locally) to be able to load
+   Checkout the [project from git](https://github.com/geniuxconsulting/blog-three60-vr) and open `index.html` and make sure
+    you [change the local files security policy](https://github.com/mrdoob/three.js/wiki/How-to-run-things-locally) to be able to load
     local videos
 1. On some OSes you might have to move the window on the Oculus screen, and
 then simply make it fullscreen by pressing `F11`
@@ -100,8 +95,7 @@ charactersitics, according to the hardware that we currently use.
 
 Moreover, the `web-vr` api lets us access rotation data, that tells the
 application which direction the user is looking at. This is similar to
-gyroscope data received from the [Device Orientation API](http://www
-.html5rocks.com/en/tutorials/device/orientation/?redirect_from_locale=de)
+gyroscope data received from the [Device Orientation API](http://www.html5rocks.com/en/tutorials/device/orientation/?redirect_from_locale=de)
 available in `html5`.
 
 Once we get the data, we can adjust the camera positions thus letting the
@@ -123,8 +117,7 @@ The logic of the application could be described by the following lines:
         Render the images from the two cameras onto the WebGL canvas
 
 To view the source code, please access the companies github repository at
-[https://github.com/geniuxconsulting/blog-three60-vr](https://github
-.com/geniuxconsulting/blog-three60-vr)
+[https://github.com/geniuxconsulting/blog-three60-vr](https://github.com/geniuxconsulting/blog-three60-vr)
 
 ### Support
 
