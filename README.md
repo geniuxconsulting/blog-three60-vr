@@ -45,12 +45,12 @@ Rift that you've [properly installed](https://support.oculus.com/hc/en-us/articl
 
 1. First you'll have to get yourself one of the vr-enabled browsers.
    Please download either:
-    * [Firefox](http://blog.bitops
-    .com/blog/2014/08/20/updated-firefox-vr-builds/)
+    * [Firefox](http://blog.bitops.com/blog/2014/08/20/updated-firefox-vr-builds/)
       or
     * [Chrome](http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html)
 1. Make sure your Rift is connected
-1. Start the vr-enabled browser and navigate to [geniuxconsulting.github.io/blog-three60-vr](geniuxconsulting.github.io/blog-three60-vr)
+1. Start the vr-enabled browser and navigate to [http://geniuxconsulting.github
+.io/blog-three60-vr](geniuxconsulting.github.io/blog-three60-vr)
    or
    Checkout the [project from git](https://github.com/geniuxconsulting/blog-three60-vr) and open `index.html` and make sure
     you [change the local files security policy](https://github.com/mrdoob/three.js/wiki/How-to-run-things-locally) to be able to load
@@ -63,7 +63,7 @@ look around in it.
 ### Controls
 
 The sample application has 4 included videos that you can toggle by pressing
-the keys `1` through `4`.
+the keys `1` through `4` - you might have to wait for the videos to buffer.
 
 Use the mouse to drag around the view around to adjust the position of the
 initial view.
