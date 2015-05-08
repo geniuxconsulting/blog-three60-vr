@@ -49,8 +49,7 @@ Rift that you've [properly installed](https://support.oculus.com/hc/en-us/articl
       or
     * [Chrome](http://blog.tojicode.com/2014/07/bringing-vr-to-chrome.html)
 1. Make sure your Rift is connected
-1. Start the vr-enabled browser and navigate to [http://geniuxconsulting.github
-.io/blog-three60-vr](geniuxconsulting.github.io/blog-three60-vr)
+1. Start the vr-enabled browser and navigate to [http://geniuxconsulting.github.io/blog-three60-vr](https://geniuxconsulting.github.io/blog-three60-vr)
    or
    Checkout the [project from git](https://github.com/geniuxconsulting/blog-three60-vr) and open `index.html` and make sure
     you [change the local files security policy](https://github.com/mrdoob/three.js/wiki/How-to-run-things-locally) to be able to load
